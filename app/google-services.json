@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "712958080263",
+    "project_id": "withsplashscreen",
+    "storage_bucket": "withsplashscreen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712958080263:android:de755a6ec060b0130cc1a2",
+        "android_client_info": {
+          "package_name": "com.rodavid20.withsplashscreen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712958080263-ogo91kje7bufud1jbtevk24grr1qu225.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLXO0XStp_YzLZ3ok7BMclMLdRBSOVxAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712958080263-ogo91kje7bufud1jbtevk24grr1qu225.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

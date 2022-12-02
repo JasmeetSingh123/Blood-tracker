@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".campid">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="84dp"
+        android:fontFamily="@font/bungee"
+        android:text="Enter the Camp ID"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="414dp"
+        android:layout_height="125dp"
+        android:layout_marginBottom="436dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/campid"
+            android:layout_width="228dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/bungee"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="Camp ID:"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/cid"
+                android:layout_width="217dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bungee"
+                android:textSize="28dp"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="98dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="25dp"
+            app:srcCompat="@android:drawable/ic_search_category_default" />
+
+    </LinearLayout>
+
+    <!-- <EditText-->
+    <!-- android:id="@+id/editText"-->
+    <!-- android:layout_width="wrap_content"-->
+    <!-- android:layout_height="wrap_content"-->
+    <!-- android:layout_marginBottom="680dp"-->
+    <!-- app:layout_constraintBottom_toBottomOf="parent"-->
+    <!-- app:layout_constraintEnd_toEndOf="parent"-->
+    <!-- app:layout_constraintHorizontal_bias="0.232"-->
+    <!-- app:layout_constraintStart_toStartOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

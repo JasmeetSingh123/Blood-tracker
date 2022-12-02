@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aftercamplistdesign">
+
+
+    <ImageView
+        android:id="@+id/afterclickimg"
+        android:layout_width="281dp"
+        android:layout_height="281dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/afterclicktext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/bbank" />
+
+    <TextView
+        android:id="@+id/afterclicktext"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/bungee"
+        android:gravity="center"
+        android:text="Surya"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/afterclickmob"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/afterclickmob"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/bungee"
+        android:gravity="center"
+        android:text="8696429200"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/afterclickadd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/afterclickadd"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="20dp"
+
+        android:layout_marginBottom="128dp"
+        android:fontFamily="@font/bungee"
+        android:gravity="center"
+        android:text="Ittigati Road,sattur colony,IIIT dharwad"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="404dp"
+        android:layout_height="131dp"
+        android:layout_marginBottom="84dp"
+        android:paddingLeft="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <Button
+            android:id="@+id/createdonar"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/mybutton"
+            android:text="Create Sample"
+            tools:layout_editor_absoluteX="38dp"
+            tools:layout_editor_absoluteY="755dp" />
+
+        <Button
+            android:id="@+id/existingdonar"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/createdonar"
+            android:background="@drawable/mybutton"
+            android:text="Existing Sample"
+            tools:layout_editor_absoluteX="201dp"
+            tools:layout_editor_absoluteY="753dp" />
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

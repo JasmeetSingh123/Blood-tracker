@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    tools:context=".aftercampid">
+
+
+    <ImageView
+        android:id="@+id/afterclickimg"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/bbank" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Camp Details"
+        android:textSize="30sp"
+        android:textAlignment="center"
+        android:fontFamily="@font/bungee"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="Name:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/camp_name"
+            android:layout_width="265dp"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="Address:"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/camp_address"
+            android:layout_width="262dp"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="Co. Name:"
+            android:textColor="@color/black"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/camp_coordinator_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="Mobile :"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+        <TextView
+            android:id="@+id/camp_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:text="Email:"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif-condensed-medium"
+            />
+
+        <TextView
+            android:id="@+id/camp_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:fontFamily="sans-serif-condensed-medium"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

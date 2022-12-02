@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">withsplashscreen</string>
+    <string name="welcome">WELCOME</string>
+    <string name="save_life">SAVE BLOOD,SAVE LIFE</string>
+    <string name="todo">TODO</string>
+    <string name="text">
+    <item>WELCOME TO</item>
+    <item>BLOOD DONATION ORGANISATION</item>
+    </string>
+</resources>

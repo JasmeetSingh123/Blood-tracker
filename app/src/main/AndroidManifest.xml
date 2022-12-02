@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rodavid20.withsplashscreen">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/img_3"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Withsplashscreen"
+        tools:targetApi="31">
+        <activity
+            android:name=".getDetails"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".getQrgenerator"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Get_QRCode"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".afterclickingdonorupdate"
+            android:exported="false" />
+        <activity
+            android:name=".qrgenerator"
+            android:exported="false" />
+        <activity
+            android:name=".afterclickdonaridforsearch"
+            android:exported="false" />
+        <activity
+            android:name=".afterclickdonarlist"
+            android:exported="false" />
+        <activity
+            android:name=".afterclickingdonarid"
+            android:exported="false" />
+        <activity
+            android:name=".afterclickingexistingdonar"
+            android:exported="false" />
+        <activity
+            android:name=".aftercamplistdesign"
+            android:exported="false" />
+        <activity
+            android:name=".camplist"
+            android:exported="false" />
+        <activity
+            android:name=".aftercampid"
+            android:exported="false" />
+        <activity
+            android:name=".campid"
+            android:exported="false" />
+        <activity
+            android:name=".Login_page"
+            android:exported="false" />
+        <activity
+            android:name=".createcamp"
+            android:exported="false" />
+        <activity
+            android:name=".Existingcamp"
+            android:exported="false" />
+        <activity
+            android:name=".window2aftersplash"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.actions"
+            android:resource="@xml/actions" />
+
+        <activity
+            android:name=".window1aftersplash"
+            android:exported="false" />
+        <activity
+            android:name=".donardetails"
+            android:exported="false" />
+        <activity
+            android:name=".Ngodetails"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

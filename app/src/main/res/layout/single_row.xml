@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/hospital_logo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/bbank" />
+
+        <TextView
+            android:id="@+id/cmp_name"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/hospital_logo"
+            android:text="Surya"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cmp_mobile"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="20dp"
+            android:layout_toRightOf="@id/cmp_name"
+            android:text="8696429200"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cmp_address"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_below="@+id/cmp_name"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/hospital_logo"
+            android:text="IIIT Dharwad,Ittigati Road"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
